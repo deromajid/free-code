@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css"></head>
+    <body>
+      <header>
+      <h1 id="title" >MajidBen</h1>
+      <p id="description" >Welcome! Please fill out the form below to enroll in the training program for website development using WordPress, HTML, CSS, and JavaScript.</p>
+      </header>
+      <form id="survey-form" >
+        <div>
+        <label id="name-label">Name</label>
+        </div>
+        <div>
+              <input id="name" name="name" type="text" required placeholder="Enter your name
+"></input>
+</div>
+<div>
+     <label id="email-label">Email</label>
+     </div>
+     <div>
+      <input id="email" type="email" required placeholder="Enter your Email
+"></input>
+</div>
+<div>
+      <label id="number-label">Age
+(optional)</label>
+</div>
+<div>
+<input id="number" type="number" required placeholder="Age" min="13" max="100"></input>
+</div>
+<div><label>Which topics are you most interested in?</label></div>
+<select id="dropdown">
+  <option>Select current role</option>
+  <option value="wordpress">wordpress</option>
+  <option value="html">Html</option>
+  <option value="css">css</option>
+  <option value="javascript">JavaScript</option>
+  <option value="all-of-them">All of them</option>
+</select>
+<div>
+  <p>Which way do you want to study?</p>
+  <label><input id ="survey-form" type="radio" name="radio" value="online" checked></input>online</label>
+  <label><input id ="survey-form" type="radio" name="radio" value="not-online" ></input>Not online</label>
+  </div> 
+  <div>
+    <p>What is your current programming level?</p>
+  <label><input id ="survey-form" type="radio" name="radio1" value="Beginner" checked></input>Beginner</label>
+  <label><input id ="survey-form" type="radio" name="radio1" value="Intermediate" ></input>Intermediate</label>
+  <label><input id ="survey-form" type="radio" name="radio1" value="Advanced" ></input>Advanced</label>
+    </div> 
+  <div>
+    <p>How many hours do you want to study per day</p>
+    <label><input id="servery-form" value="1 hour" type="checkbox" ></input>1 hour</label>
+    <label><input id="servery-form" value="2-3 hours" type="checkbox" ></input>2-3 hours</label>
+    <label><input id="servery-form" value="More than 3 hours" type="checkbox" ></input>More than 3 hours</label>
+    </div>   
+    <div> 
+<div>
+  <p>What is your preferred learning method?</p>
+  <label><input id="servery-form" value="Video lessons" type="checkbox" ></input>Video lessons</label>
+  <label><input id="servery-form" value="Text + exercises" type="checkbox" ></input>Text + exercises</label>
+  <label><input id="servery-form" value="Live sessions (Zoom or Google Meet)" type="checkbox" ></input>Live sessions (Zoom or Google Meet)</label>
+</div>
+<div>
+  <label><p>Tell us about yourself</p>
+    <textarea id="survery-from" value="text" name="taxt" placeholder="Enter your comment here..."></textarea>
+  </label>
+  </div>
+<div>
+  <button id="submit">submit</button>
+  </div>
+      </form>
+      </div>
+      </body>
+  </html>
